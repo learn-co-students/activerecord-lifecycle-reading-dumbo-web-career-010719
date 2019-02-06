@@ -20,6 +20,6 @@ class Post < ActiveRecord::Base
   end
 
   def email_author_about_post
-      :alert => "Post was save!"
+      "Post was save!"
   end
 end
